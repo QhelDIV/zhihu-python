@@ -1,7 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
+# qheldiv
+config.ini
+*~
 # C extensions
 *.so
 

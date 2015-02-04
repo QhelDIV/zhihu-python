@@ -1,6 +1,15 @@
 zhihu-python：获取知乎信息
 ===============================
 
+new things by QhelDIV：
+----
+新增crawl.py，可以通过
+python crawl.py
+实现从给定用户开始在一定范围内的用户关注关系图（范围的大小和起始用户见crawl.py），并会实时的写入到DirectedGraph.txt这个文件中
+格式为
+{<s1,t1>,<s2,t2>,...,<sn,tn>,
+最后的格式手工修改一下即可。
+
 介绍
 ----
 
